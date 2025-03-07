@@ -16,6 +16,9 @@ export class Product {
 
     @Prop()
     imageUrl: string;
+
+    @Prop({ required: true })
+    quantity: number;
 }
 
 export const ProductSchema = SchemaFactory.createForClass(Product);

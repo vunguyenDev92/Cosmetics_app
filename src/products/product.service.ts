@@ -3,7 +3,7 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Product, ProductDocument } from './product.schema';
 import { NotFoundException } from '@nestjs/common';
-import { UpdateProductDto } from './product.dto';
+import { UpdateProductDto } from '../dto/product.dto';
 
 
 
